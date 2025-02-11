@@ -4,8 +4,8 @@
 # **📌 Trixsearch - Abhinav Sahu's Portfolio**  
 🚀 Welcome to my personal portfolio website! This project showcases my work, skills, and experiences in **full-stack development** using modern web technologies.  
 
-![Portfolio Demo](https://trixsearch.github.io/assets/demo.png)  
-🔗 **Live Demo:** [trixsearch.github.io](https://trixsearch.github.io/)  
+[Portfolio Code](https://github.com/trixsearch/trixsearch.github.io/tree/react-v)  
+🔗 **Live Working:** [trixsearch.github.io](https://trixsearch.github.io/)  
 
 ---
 

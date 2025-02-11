@@ -22,7 +22,7 @@ const ButtonPrimary = ({
             <a
                 href={href}
                 target={target}
-                className={"btn btn-primary" + classes}>
+                className={`btn btn-primary ${classes || ''}`}>
                 {label}
                 {icon ?
                     <span className="material-symbols-rounded"

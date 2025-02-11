@@ -46,9 +46,10 @@ const Hero = () => {
           </h2>
           <div className=" flex items-center gap-3">
             <ButtonPrimary
-              label={"Download Abhinav's CV"}
+              label={"Download Abhinav's ba CV"}
               icon="download"
               href="https://trixsearch.github.io/resume.pdf"
+              // https://raw.githubusercontent.com/trixsearch/trixsearch.github.io/4a9155ca740a29a4eb935d9d01ac7ec88c78fe70/resume.pdf
             />
 
             <ButtonOutLine

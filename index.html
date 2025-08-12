@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Sahu | Django Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="nav-glass">
+        <div class="container navbar">
+            <a href="#" class="logo">Abhinav</a>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <div>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span>Abhinav Sahu</span></h1>
+                <div class="typing-text">
+                    <span>Full Stack Developer</span>
+                </div>
+                <p>I build scalable web applications with Django and modern technologies. Passionate about creating efficient, secure, and user-friendly solutions.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#" class="btn resume-btn" id="viewResume">View Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="trixsearch_cartoon_img.png" alt="Abhinav Sahu">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Get to know me better</p>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Abhinav, a passionate Django developer with 2+ years of experience building robust web applications. I specialize in creating efficient backend systems with Django REST Framework and scalable architectures.</p>
+                    <p>Currently working at Reliance Jio Platforms Limited, I've contributed to migrating legacy systems to Django microservices, improving scalability by 40% and reducing API latency by 35% through optimized queries and caching strategies.</p>
+                    <p>When I'm not coding, you can find me writing technical blogs, contributing to open-source projects, or exploring new technologies in the Python ecosystem.</p>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-code"></i>
+                        <h3>2+ Years</h3>
+                        <p>Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>15+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>5</h3>
+                        <p>Certifications</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <h3>100%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+            
+            <div class="skills-container">
+                <div class="skill-card">
+                    <i class="fab fa-java skill-icon java"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python skill-icon python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon django"></i>
+                    <h3>Django</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react skill-icon react"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon postgres"></i>
+                    <h3>PostgreSQL</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-docker skill-icon docker"></i>
+                    <h3>Docker</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt skill-icon git"></i>
+                    <h3>Git</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-aws skill-icon aws"></i>
+                    <h3>AWS</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Some of my recent work</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Maeshards E-commerce</h3>
+                        <p>Full-stack e-commerce platform with payment gateway integration and recommendation engine.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/trixsearch/maeshards" class="btn">GitHub</a>
+                            <a href="#" class="btn" style="background: transparent; border: 2px solid var(--light-accent); color: var(--light-accent);">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>EmailDoot</h3>
+                        <p>Email automation platform with direct SMTP integration and analytics dashboard.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">SMTP</span>
+                            <span class="project-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/trixsearch/emaildoot" class="btn">GitHub</a>
+                            <a href="#" class="btn" style="background: transparent; border: 2px solid var(--light-accent); color: var(--light-accent);">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>TriChef AI</h3>
+                        <p>AI-powered cooking assistant that generates recipes based on user input.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">LangChain</span>
+                            <span class="project-tag">OpenAI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn">GitHub</a>
+                            <a href="#" class="btn" style="background: transparent; border: 2px solid var(--light-accent); color: var(--light-accent);">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+   <section id="contact">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-subtitle">Have a project in mind? Let's talk</p>
+
+    <div class="contact-container">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div>
+            <h3>Email</h3>
+            <p>inforatme@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div>
+            <h3>Phone</h3>
+            <p>+91 9109090464</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div>
+            <h3>Location</h3>
+            <p>Navi Mumbai, Maharashtra</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <form 
+          action="https://getform.io/f/bwnnznda" 
+          method="POST"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3>Abhinav Sahu</h3>
+            <p>Django Developer & Full Stack Engineer</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/trixsearch"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/trixsearch"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://trixsearch.github.io"><i class="fas fa-globe"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            
+            <p>&copy; 2023 Abhinav Sahu. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div class="resume-modal" id="resumeModal">
+        <div class="resume-content">
+            <a href="https://drive.google.com/uc?export=download&id=YOUR_RESUME_ID" class="download-resume" download="Abhinav_Sahu_Resume.pdf">
+                <i class="fas fa-download"></i> Download PDF
+            </a>
+            <span class="close-resume" id="closeResume">&times;</span>
+            
+            <div class="resume-header">
+                <h2>Abhinav Sahu</h2>
+                <p>Django Developer</p>
+                <div class="resume-contact">
+                    <span><i class="fas fa-envelope"></i> inforatme@gmail.com</span>
+                    <span><i class="fas fa-phone"></i> +91 9109090464</span>
+                    <span><i class="fab fa-linkedin"></i> linkedin.com/in/trixsearch</span>
+                    <span><i class="fab fa-github"></i> github.com/trixsearch</span>
+                </div>
+            </div>
+            
+            <div class="resume-section">
+                <h3>Professional Summary</h3>
+                <p>Full-Stack Developer specializing in Django with 2+ years of experience building scalable web applications. Certified Django developer with expertise in REST API development, PostgreSQL optimization, and cloud deployment. Reduced API latency by 75% through Django ORM optimizations. Seeking backend development roles to leverage Django expertise in creating high-performance systems.</p>
+            </div>
+            
+            <div class="resume-section">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+                    <div>
+                        <h4>Django Stack</h4>
+                        <p>Django 4.x, Django REST Framework, Django ORM, Celery</p>
+                    </div>
+                    <div>
+                        <h4>Programming</h4>
+                        <p>Python, JavaScript, SQL, HTML5, CSS3</p>
+                    </div>
+                    <div>
+                        <h4>Databases</h4>
+                        <p>PostgreSQL, Redis, MySQL, MongoDB</p>
+                    </div>
+                    <div>
+                        <h4>DevOps</h4>
+                        <p>Docker, Azure CI/CD, GitHub Actions, Git</p>
+                    </div>
+                    <div>
+                        <h4>APIs</h4>
+                        <p>RESTful APIs, GraphQL, JWT, OAuth</p>
+                    </div>
+                    <div>
+                        <h4>Frontend</h4>
+                        <p>React.js, Tailwind CSS</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="resume-section">
+                <h3>Professional Experience</h3>
+                <div class="resume-item">
+                    <div class="resume-item-header">
+                        <h4>Django Developer</h4>
+                        <p>Dec 2023 – Present</p>
+                    </div>
+                    <p>Reliance Jio Platforms Limited, Navi Mumbai</p>
+                    <ul>
+                        <li>Architected migration of legacy systems to Django microservices, improving scalability by 40%</li>
+                        <li>Developed REST APIs with Django REST Framework handling 10,000+ daily requests</li>
+                        <li>Optimized PostgreSQL queries via Django ORM, reducing average response time by 35%</li>
+                        <li>Implemented Redis caching for Django sessions reducing response times by 25%</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="resume-section">
+                <h3>Projects</h3>
+                <div class="resume-item">
+                    <h4>Maeshards E-commerce Platform</h4>
+                    <p>Django | React | PostgreSQL | Razorpay | Jul - Oct 2023</p>
+                    <ul>
+                        <li>Built Django backend with REST API supporting 500+ daily users using JWT authentication</li>
+                        <li>Implemented payment processing with Razorpay integration using Django webhooks</li>
+                        <li>Developed recommendation engine using Django signals increasing sales by 18%</li>
+                    </ul>
+                </div>
+                
+                <div class="resume-item">
+                    <h4>EmailDoot</h4>
+                    <p>Django | SMTP | PostgreSQL | Nov 2023 - Jan 2024</p>
+                    <ul>
+                        <li>Created Django-based email automation platform with direct SMTP integration</li>
+                        <li>Implemented secure email delivery system achieving 99.9% deliverability rate</li>
+                        <li>Developed analytics dashboard using Django ORM aggregations</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="resume-section">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <div class="resume-item-header">
+                        <h4>B.Tech Computer Science</h4>
+                        <p>2019 - 2023</p>
+                    </div>
+                    <p>Shri Ram Institute of Technology, Jabalpur</p>
+                </div>
+            </div>
+            
+            <div class="resume-section">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Meta Django Developer Professional Certificate - Coursera (2023)</li>
+                    <li>Microsoft Azure Fundamentals - AZ-900 (2024)</li>
+                    <li>HackerRank Gold Badge - Python & SQL (2023)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        const themeIcon = themeToggle.querySelector('i');
+        
+        // Check for saved theme preference
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme === 'dark') {
+            body.classList.add('dark-theme');
+            themeIcon.classList.remove('fa-moon');
+            themeIcon.classList.add('fa-sun');
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+            
+            if (body.classList.contains('dark-theme')) {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+        
+        // Mobile Navigation
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            
+            // Change hamburger icon
+            if (navLinks.classList.contains('active')) {
+                hamburger.innerHTML = '<i class="fas fa-times"></i>';
+            } else {
+                hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+            }
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.padding = '10px 0';
+                header.style.backdropFilter = 'blur(10px)';
+            } else {
+                header.style.padding = '15px 0';
+                header.style.backdropFilter = 'blur(5px)';
+            }
+        });
+        
+        // Resume Modal
+        const viewResumeBtn = document.getElementById('viewResume');
+        const closeResumeBtn = document.getElementById('closeResume');
+        const resumeModal = document.getElementById('resumeModal');
+        
+        viewResumeBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            resumeModal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeResumeBtn.addEventListener('click', () => {
+            resumeModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+        
+        window.addEventListener('click', (e) => {
+            if (e.target === resumeModal) {
+                resumeModal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+        
+        // Typing animation
+        const techStack = ["Java", "Django", "React", "Python", "PostgreSQL"];
+        let techIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.querySelector('.typing-text span');
+        
+        function type() {
+            const currentTech = techStack[techIndex];
+            
+            if (isDeleting) {
+                // Remove characters
+                typingElement.textContent = "Full Stack " + currentTech.substring(0, charIndex - 1) + " Developer";
+                charIndex--;
+                
+                if (charIndex === 0) {
+                    isDeleting = false;
+                    techIndex = (techIndex + 1) % techStack.length;
+                }
+            } else {
+                // Add characters
+                typingElement.textContent = "Full Stack " + currentTech.substring(0, charIndex + 1) + " Developer";
+                charIndex++;
+                
+                if (charIndex === currentTech.length + 1) {
+                    isDeleting = true;
+                    // Pause at end before deleting
+                    setTimeout(type, 2000);
+                    return;
+                }
+            }
+            
+            const speed = isDeleting ? 100 : 150;
+            setTimeout(type, speed);
+        }
+        
+        // Start typing animation
+        setTimeout(type, 1000);
+    </script>
+</body>
+</html>

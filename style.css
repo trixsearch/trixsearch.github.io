@@ -362,8 +362,10 @@ header {
 }
 
 .dark-theme .resume-btn {
-  border-color: var(--dark-accent);
-  color: var(--dark-accent);
+  /* border-color: var(--dark-accent); */
+  border-color: rgb(0, 75, 161);
+  /* color: var(--dark-accent); */
+  color: white;
 }
 
 .resume-btn:hover {
